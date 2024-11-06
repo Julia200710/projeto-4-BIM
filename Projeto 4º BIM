@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicas e produtos de skincare para uma pele saudável.">
+    <title>Skin Care - Cuide da sua pele</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Skin Care</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Introdução -->
+    <section id="intro">
+        <h2>Bem-vindo ao Skin Care!</h2>
+        <p>Encontre dicas, truques e produtos incríveis para manter sua pele saudável e bonita.</p>
+    </section>
+
+    <!-- Seção de Dicas de Cuidados com a Pele -->
+    <section id="dicas">
+        <h2>Dicas para uma Pele Saudável</h2>
+        <div class="dica">
+            <h3>Hidrate-se Diariamente</h3>
+            <p>A hidratação é fundamental para manter sua pele macia e saudável. Beba bastante água e use cremes hidratantes adequados.</p>
+        </div>
+        <div class="dica">
+            <h3>Use Protetor Solar</h3>
+            <p>O protetor solar protege sua pele contra danos causados pelos raios UV, prevenindo o envelhecimento precoce e câncer de pele.</p>
+        </div>
+        <div class="dica">
+            <h3>Limpeza Suave</h3>
+            <p>Escolha um sabonete facial adequado ao seu tipo de pele e faça uma limpeza suave para remover impurezas sem agredir a pele.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos Recomendados -->
+    <section id="produtos">
+        <h2>Produtos Recomendados</h2>
+        <div class="produto">
+            <h3>Creme Hidratante Ultra</h3>
+            <p>Um creme hidratante perfeito para pele seca. Proporciona nutrição e hidratação profunda.</p>
+        </div>
+        <div class="produto">
+            <h3>Protetor Solar FPS 50</h3>
+            <p>Proteção solar de alto espectro para garantir a saúde da sua pele durante todo o dia.</p>
+        </div>
+        <div class="produto">
+            <h3>Gel de Limpeza Facial</h3>
+            <p>Um gel suave que remove as impurezas sem ressecar a pele. Ideal para uso diário.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Skin Care. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
